@@ -18,10 +18,10 @@ Designed for players and modpack creators looking to expand their building optio
 
 ## 📥 Installation
 
-- Requires **Minecraft 1.20.5+**
+- Requires **Minecraft 1.21.6+**
 - Requires **Fabric Loader** and **Fabric API**
 
-Download the latest build from [Modrinth](https://modrinth.com/).
+Download the latest build from [Modrinth](https://modrinth.com/mod/pricks-n-planks/versions).
 
 ---
 
@@ -37,7 +37,7 @@ See the [LICENSE](./LICENSE) file for full terms.
 ## 🐛 Issues & Suggestions
 
 Found a bug? Have a feature request?  
-Feel free to open an issue on the [GitHub repository](https://github.com/yourusername/pricksnplanks) or use the Modrinth comment section.
+Feel free to open an issue on the [GitHub repository](https://github.com/Portix24/PricksnPlanks).
 
 ---
 

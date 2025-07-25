@@ -156,7 +156,7 @@ public class CactusTntEntity extends Entity implements Ownable {
         //List<Integer> angles = List.of(0, 45, 90, 135, 180, 225, 270, 315);
         double distance = 0.6;
 
-        for (int angle = 0; angle <= 360; angle += 36) {
+        for (int angle = 0; angle <= 360; angle += 30) {
             angle += world.random.nextBetween(-8, 8);
             Vec3d pos = centerPos.add(Math.sin(Math.toRadians(angle)) * distance, 0.4, Math.cos(Math.toRadians(angle)) * distance);
 
