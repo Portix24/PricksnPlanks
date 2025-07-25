@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cactus_spikes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pricksnplanks:cactus_spikes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pricksnplanks:throwable_cactus"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cactus_spikes"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pricksnplanks:throwable_cactus"
+    ]
+  }
+}

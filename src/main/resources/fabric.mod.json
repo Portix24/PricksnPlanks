@@ -1,0 +1,38 @@
+  {
+	"schemaVersion": 1,
+	"id": "pricksnplanks",
+	"version": "${version}",
+	"name": "Pricks 'n' Planks",
+	"description": "More cacti variants! Shear or even skin your cacti, and make food and projectiles out of their spikes!",
+	"authors": [
+		"Portix_24",
+		"Sychoni Djinn"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/pricks-n-planks",
+		"sources": "https://github.com/Portix24/PricksnPlanks"
+	},
+	"license": "Portix's License v1.0",
+	"icon": "assets/pricksnplanks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.portix.pricksnplanks.PricksnPlanks"
+		],
+		"client": [
+			"com.portix.pricksnplanks.PricksnPlanksClient"
+		],
+		"fabric-datagen": [
+			"com.portix.pricksnplanks.PricksnPlanksDataGenerator"
+		]
+	},
+	"mixins": [
+		"pricksnplanks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,51 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Cactus Items Tab",
+
+  "item.pricksnplanks.throwable_cactus": "Throwable Cactus",
+  "entity.pricksnplanks.throwable_cactus": "Throwable Cactus",
+  "item.pricksnplanks.cactus_spikes": "Cactus Spikes",
+
+  "block.pricksnplanks.smooth_cactus": "Smooth Cactus",
+  "block.pricksnplanks.skinned_cactus": "Skinned Cactus",
+
+  "block.pricksnplanks.cactus_planks": "Cactus Planks",
+  "block.pricksnplanks.cactus_plank_slab": "Cactus Plank Slab",
+  "block.pricksnplanks.cactus_plank_stairs": "Cactus Plank Stairs",
+  "block.pricksnplanks.cactus_plank_button": "Cactus Plank Button",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Cactus Plank Pressure Plate",
+  "block.pricksnplanks.cactus_plank_fence": "Cactus Plank Fence",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Cactus Plank Fence Gate",
+  "block.pricksnplanks.cactus_plank_door": "Cactus Plank Door",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Cactus Plank Trapdoor",
+
+  "block.pricksnplanks.cactus_plank_sign": "Cactus Plank Sign",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Cactus Plank Sign",
+  "item.pricksnplanks.cactus_plank_sign_item": "Cactus Plank Sign",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Cactus Plank Hanging Sign",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Cactus Plank Hanging Sign",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Cactus Plank Hanging Sign",
+
+  "item.pricksnplanks.cactus_boat": "Cactus Boat",
+  "item.pricksnplanks.cactus_chest_boat": "Cactus Boat With Chest",
+
+  "entity.pricksnplanks.cactus_boat": "Cactus Boat",
+  "entity.pricksnplanks.cactus_chest_boat": "Cactus Boat With Chest",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Cactus Pottery Sherd",
+
+  "item.pricksnplanks.cactus_stew": "Cactus Stew",
+
+  "item.pricksnplanks.thorns_music_disc": "Music Disc",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture - Thorns",
+
+  "effect.pricksnplanks.thorns": "Thorny",
+
+  "block.pricksnplanks.cactus_tnt": "Cactus TNT",
+  "entity.pricksnplanks.cactus_tnt": "Cactus TNT",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Cactus Plank Convertibles",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Cactus Stew Ingredients",
+  "tag.item.pricksnplanks.dry_grass": "Dry Grass",
+  "tag.block.pricksnplanks.cactuses": "Cactuses"
+}

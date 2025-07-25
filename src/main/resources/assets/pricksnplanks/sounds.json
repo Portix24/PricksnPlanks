@@ -1,0 +1,10 @@
+{
+  "thorns": {
+    "sounds": [
+      {
+        "name": "pricksnplanks:thorns",
+        "stream": true
+      }
+    ]
+  }
+}

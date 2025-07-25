@@ -1,0 +1,9 @@
+// 1.21.6	-999999999-01-01T00:00:00	Pricks 'n' Planks/Tags for minecraft:block
+f3443aa748420f9e515c96de702cdd96bda71a35 data/minecraft/tags/block/buttons.json
+4a9e2fcb6e792e82d682e429371d00aee7ff0814 data/minecraft/tags/block/fence_gates.json
+43330b44aeb208727ba635199fd192c59ee44549 data/minecraft/tags/block/fences.json
+6c3810a22d1680e1202f89b975f4f50f73a57cb0 data/minecraft/tags/block/mineable/axe.json
+1b3934bb6a315fe27674550f9cee6513da057e2b data/minecraft/tags/block/planks.json
+a5b4a488109c80a93ee5e17bbb5c10fa4e476d5b data/minecraft/tags/block/pressure_plates.json
+cd9b11ee07d4507a2bee3576ec338120aab5fab0 data/pricksnplanks/tags/block/cactus_tnt.json
+b84d3e5c6078fc4bebf5c8df148b88e8273ba1e6 data/pricksnplanks/tags/block/cactuses.json

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pricksnplanks:block/cactus_plank_slab"
+    },
+    "type=double": {
+      "model": "pricksnplanks:block/cactus_planks"
+    },
+    "type=top": {
+      "model": "pricksnplanks:block/cactus_plank_slab_top"
+    }
+  }
+}

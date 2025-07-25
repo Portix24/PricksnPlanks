@@ -1,0 +1,12 @@
+// 1.21.6	-999999999-01-01T00:00:00	Pricks 'n' Planks/Tags for minecraft:item
+79604f6259150af3b95b05bbcb9c042255638476 data/minecraft/tags/item/boats.json
+f3443aa748420f9e515c96de702cdd96bda71a35 data/minecraft/tags/item/buttons.json
+f554a3da1fbd7d40aecf4399dde4641fa7c880db data/minecraft/tags/item/chest_boats.json
+cac3d265a7bd121169d289cd917a6ee8429f26fc data/minecraft/tags/item/decorated_pot_sherds.json
+4a9e2fcb6e792e82d682e429371d00aee7ff0814 data/minecraft/tags/item/fence_gates.json
+43330b44aeb208727ba635199fd192c59ee44549 data/minecraft/tags/item/fences.json
+1b3934bb6a315fe27674550f9cee6513da057e2b data/minecraft/tags/item/planks.json
+a5b4a488109c80a93ee5e17bbb5c10fa4e476d5b data/minecraft/tags/item/wooden_pressure_plates.json
+b84d3e5c6078fc4bebf5c8df148b88e8273ba1e6 data/pricksnplanks/tags/item/cactus_plank_craftables.json
+40fc28555ba86485c2fdf3bc327bb05602bd7cb5 data/pricksnplanks/tags/item/cactus_stew_ingredients.json
+542731034dcf8597bd35e3d136ebf00f51b0ff94 data/pricksnplanks/tags/item/dry_grass.json

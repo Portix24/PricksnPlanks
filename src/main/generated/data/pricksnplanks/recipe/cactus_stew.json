@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bowl",
+    "#pricksnplanks:dry_grass",
+    "#pricksnplanks:cactus_stew_ingredients"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pricksnplanks:cactus_stew"
+  }
+}

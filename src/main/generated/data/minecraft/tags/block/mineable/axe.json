@@ -1,0 +1,17 @@
+{
+  "values": [
+    "pricksnplanks:cactus_planks",
+    "pricksnplanks:cactus_plank_slab",
+    "pricksnplanks:cactus_plank_stairs",
+    "pricksnplanks:cactus_plank_fence",
+    "pricksnplanks:cactus_plank_fence_gate",
+    "pricksnplanks:cactus_plank_door",
+    "pricksnplanks:cactus_plank_trapdoor",
+    "pricksnplanks:cactus_plank_button",
+    "pricksnplanks:cactus_plank_pressure_plate",
+    "pricksnplanks:cactus_plank_sign",
+    "pricksnplanks:cactus_plank_wall_sign",
+    "pricksnplanks:cactus_plank_hanging_sign",
+    "pricksnplanks:cactus_plank_wall_hanging_sign"
+  ]
+}

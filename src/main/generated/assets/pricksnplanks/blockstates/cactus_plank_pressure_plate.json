@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "pricksnplanks:block/cactus_plank_pressure_plate"
+    },
+    "powered=true": {
+      "model": "pricksnplanks:block/cactus_plank_pressure_plate_down"
+    }
+  }
+}

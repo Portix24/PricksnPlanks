@@ -1,0 +1,8 @@
+{
+  "comparator_output": 14,
+  "description": {
+    "translate": "item.pricksnplanks.thorns_music_disc.desc"
+  },
+  "length_in_seconds": 103.0,
+  "sound_event": "pricksnplanks:thorns"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#pricksnplanks:cactus_plank_craftables"
+  ],
+  "result": {
+    "count": 2,
+    "id": "pricksnplanks:cactus_planks"
+  }
+}
