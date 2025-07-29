@@ -4,6 +4,7 @@ import com.portix.pricksnplanks.entity.ModEntityTypes;
 import com.portix.pricksnplanks.entity.custom.ThrowableCactusEntity;
 import net.minecraft.block.dispenser.DispenserBehavior;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
 import net.minecraft.entity.projectile.ProjectileEntity;
 import net.minecraft.entity.projectile.thrown.EggEntity;
@@ -44,7 +45,8 @@ public class ThrowableCactusItem extends Item implements ProjectileItem { //impl
             speed.add(player.getMovement().x, player.isOnGround() ? 0f : player.getMovement().y, player.getMovement().z);
             ball.setVelocity(speed.x, speed.y, speed.z, 1.0f, 1.0f);
             if (player.isCreative()) {
-                ball.pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
+                ball.setUnpickupable(true);
+                //ball.pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
             }
             //ball.setVelocity(player, player.getPitch(), player.getYaw(), 0.0F, 1.0F, 1.0F);
             world.spawnEntity(ball);
@@ -58,15 +60,9 @@ public class ThrowableCactusItem extends Item implements ProjectileItem { //impl
 
     @Override
     public ProjectileEntity createEntity(World world, Position pos, ItemStack stack, Direction direction) {
-        /*
-        ThrowableCactusEntity cactus = new ThrowableCactusEntity(ModEntityTypes.THROWABLE_CACTUS_ENTITY, world);
-        cactus.setPosition(pos.getX(), pos.getY(), pos.getZ());
-        Vec3d speed = direction.getDoubleVector();
-        cactus.setVelocity(speed.x, speed.y, speed.z, 1.0f, 1.0f);
-        world.spawnEntity(cactus);
-        return cactus;
-         */
-        return new ThrowableCactusEntity(world, pos.getX(), pos.getY(), pos.getZ(), stack);
+        ThrowableCactusEntity throwableCactusEntity = new ThrowableCactusEntity(world, pos.getX(), pos.getY(), pos.getZ(), stack.copyWithCount(1));
+        //throwableCactusEntity.pickupType = PersistentProjectileEntity.PickupPermission.ALLOWED;
+        return throwableCactusEntity;
     }
 
     @Override
