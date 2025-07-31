@@ -1,7 +1,9 @@
 package com.portix.pricksnplanks.datagen;
 
+import com.portix.pricksnplanks.PricksnPlanks;
 import com.portix.pricksnplanks.block.ModBlocks;
 import com.portix.pricksnplanks.item.ModItems;
+import com.portix.pricksnplanks.trim.ModTrimPatterns;
 import com.portix.pricksnplanks.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -11,9 +13,11 @@ import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
 
-import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
@@ -97,6 +101,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 offerBoatRecipe(ModItems.CACTUS_BOAT, ModBlocks.CACTUS_PLANKS);
                 offerChestBoatRecipe(ModItems.CACTUS_CHEST_BOAT, ModItems.CACTUS_BOAT);
+
+                offerSmithingTrimRecipe(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE, ModTrimPatterns.SPIKE, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(PricksnPlanks.MOD_ID, "spike")));
             }
         };
     }

@@ -2,7 +2,6 @@ package com.portix.pricksnplanks.item;
 
 import com.portix.pricksnplanks.PricksnPlanks;
 import com.portix.pricksnplanks.block.ModBlocks;
-import com.portix.pricksnplanks.util.ModTags;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -48,6 +47,8 @@ public class ModItemGroups {
 
                         entries.add(ModItems.THORNS_MUSIC_DISC);
                         entries.add(ModBlocks.CACTUS_TNT);
+
+                        entries.add(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE);
 
                     }).build());
 

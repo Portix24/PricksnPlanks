@@ -22,6 +22,7 @@ public class ModLootTableModifiers {
 
                 lootTableBuilder.modifyPools(poolBuilder -> {
                     poolBuilder.with(ItemEntry.builder(ModItems.CACTUS_POTTERY_SHERD).weight(2));
+                    poolBuilder.with(ItemEntry.builder(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE).weight(1));
                 });
             }
         });

@@ -2,10 +2,8 @@ package com.portix.pricksnplanks.datagen;
 
 import com.portix.pricksnplanks.block.ModBlocks;
 import com.portix.pricksnplanks.item.ModItems;
-import com.portix.pricksnplanks.util.ModTags;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.block.Blocks;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
@@ -52,5 +50,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CACTUS_POTTERY_SHERD, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.THORNS_MUSIC_DISC, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }
