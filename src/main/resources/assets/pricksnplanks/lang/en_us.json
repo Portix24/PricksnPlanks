@@ -44,8 +44,8 @@
   "block.pricksnplanks.cactus_tnt": "Cactus TNT",
   "entity.pricksnplanks.cactus_tnt": "Cactus TNT",
 
-  "item.pricksnplanks.spike_armor_trim_smithing_template": "Spike Smithing Template",
-  "trim_pattern.pricksnplanks.spike": "Spike Armor Trim",
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Spine Smithing Template",
+  "trim_pattern.pricksnplanks.spine": "Spine Armor Trim",
 
   "tag.item.pricksnplanks.cactus_plank_craftables": "Cactus Plank Convertibles",
   "tag.item.pricksnplanks.cactus_stew_ingredients": "Cactus Stew Ingredients",

@@ -61,7 +61,7 @@ public class ModItems {
     public static final Item THORNS_MUSIC_DISC = registerItem("thorns_music_disc",
             Item::new, new Item.Settings().jukeboxPlayable(ModSounds.THORNS_KEY).maxCount(1).rarity(Rarity.UNCOMMON));
 
-    public static final Item SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE = registerItem("spike_armor_trim_smithing_template",
+    public static final Item SPINE_ARMOR_TRIM_SMITHING_TEMPLATE = registerItem("spine_armor_trim_smithing_template",
             SmithingTemplateItem::of, new Item.Settings().rarity(Rarity.UNCOMMON));
 
     private static Item registerItem(String name, Function<Item.Settings, Item> function, Item.Settings settings) {

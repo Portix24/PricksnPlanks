@@ -51,6 +51,6 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.THORNS_MUSIC_DISC, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE, Models.GENERATED);
     }
 }

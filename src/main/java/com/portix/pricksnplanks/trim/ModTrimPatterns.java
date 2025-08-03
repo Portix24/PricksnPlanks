@@ -12,10 +12,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 
 public class ModTrimPatterns {
-    public static final RegistryKey<ArmorTrimPattern> SPIKE = RegistryKey.of(RegistryKeys.TRIM_PATTERN, Identifier.of(PricksnPlanks.MOD_ID, "spike"));
+    public static final RegistryKey<ArmorTrimPattern> SPINE = RegistryKey.of(RegistryKeys.TRIM_PATTERN, Identifier.of(PricksnPlanks.MOD_ID, "spine"));
 
     public static void bootstrap(Registerable<ArmorTrimPattern> context) {
-        register(context, ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE, SPIKE);
+        register(context, ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE, SPINE);
     }
 
     private static void register(Registerable<ArmorTrimPattern> context, Item item, RegistryKey<ArmorTrimPattern> key) {

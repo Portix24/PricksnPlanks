@@ -4,8 +4,8 @@
     {
       "type": "minecraft:paletted_permutations",
       "textures": [
-        "pricksnplanks:trims/entity/humanoid/spike",
-        "pricksnplanks:trims/entity/humanoid_leggings/spike"
+        "pricksnplanks:trims/entity/humanoid/spine",
+        "pricksnplanks:trims/entity/humanoid_leggings/spine"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {

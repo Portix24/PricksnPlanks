@@ -48,7 +48,7 @@ public class ModItemGroups {
                         entries.add(ModItems.THORNS_MUSIC_DISC);
                         entries.add(ModBlocks.CACTUS_TNT);
 
-                        entries.add(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE);
+                        entries.add(ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE);
 
                     }).build());
 

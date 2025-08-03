@@ -102,7 +102,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerBoatRecipe(ModItems.CACTUS_BOAT, ModBlocks.CACTUS_PLANKS);
                 offerChestBoatRecipe(ModItems.CACTUS_CHEST_BOAT, ModItems.CACTUS_BOAT);
 
-                offerSmithingTrimRecipe(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE, ModTrimPatterns.SPIKE, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(PricksnPlanks.MOD_ID, "spike")));
+                offerSmithingTrimRecipe(ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE, ModTrimPatterns.SPINE, RegistryKey.of(RegistryKeys.RECIPE, Identifier.of(PricksnPlanks.MOD_ID, "spike")));
             }
         };
     }

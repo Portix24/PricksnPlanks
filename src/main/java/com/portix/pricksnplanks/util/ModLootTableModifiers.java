@@ -22,19 +22,25 @@ public class ModLootTableModifiers {
 
                 lootTableBuilder.modifyPools(poolBuilder -> {
                     poolBuilder.with(ItemEntry.builder(ModItems.CACTUS_POTTERY_SHERD).weight(2));
-                    poolBuilder.with(ItemEntry.builder(ModItems.SPIKE_ARMOR_TRIM_SMITHING_TEMPLATE).weight(1));
+                    poolBuilder.with(ItemEntry.builder(ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE).weight(1));
                 });
             }
         });
 
         LootTableEvents.MODIFY.register((registryKey, lootTableBuilder, tableSource, wrapperLookup) -> {
             if (DESERT_PYRAMID_ID.equals(registryKey.getValue()) && tableSource.isBuiltin()) {
-                LootPool.Builder pool = LootPool.builder()
+                LootPool.Builder thornsDiscPool = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1.0F))
                         .with(EmptyEntry.builder().weight(6))      // 17:1 is as pigstep, but there's double-chests, and a lot more chests overall
                         .with(ItemEntry.builder(ModItems.THORNS_MUSIC_DISC).weight(1));     // 6:1 is as dune template
 
-                lootTableBuilder.pool(pool);   //this adds a pool
+                LootPool.Builder spineTrimPool = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1.0F))
+                        .with(EmptyEntry.builder().weight(11))      // 17:1 is as pigstep, but there's double-chests, and a lot more chests overall
+                        .with(ItemEntry.builder(ModItems.SPINE_ARMOR_TRIM_SMITHING_TEMPLATE).weight(1));     // 6:1 is as dune template
+
+                lootTableBuilder.pool(thornsDiscPool);   //this adds a pool
+                lootTableBuilder.pool(spineTrimPool);
 
                 /*  // this modifies a pool
                 lootTableBuilder.modifyPools(poolBuilder -> {
