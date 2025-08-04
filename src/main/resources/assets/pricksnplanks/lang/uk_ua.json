@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Pricks 'n' Planks",
+
+  "item.pricksnplanks.throwable_cactus": "Кидальний кактус",
+  "entity.pricksnplanks.throwable_cactus": "Кинутий кактус",
+  "item.pricksnplanks.cactus_spikes": "Колючки кактуса",
+
+  "block.pricksnplanks.smooth_cactus": "Гладкий кактус",
+  "block.pricksnplanks.skinned_cactus": "Обідраний кактус",
+
+  "block.pricksnplanks.cactus_planks": "Кактусові дошки",
+  "block.pricksnplanks.cactus_plank_slab": "Кактусова плита",
+  "block.pricksnplanks.cactus_plank_stairs": "Кактусові сходи",
+  "block.pricksnplanks.cactus_plank_button": "Кактусова кнопка",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Кактусова натискна плита",
+  "block.pricksnplanks.cactus_plank_fence": "Кактусовий паркан",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Кактусова хвіртка",
+  "block.pricksnplanks.cactus_plank_door": "Кактусові двері",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Кактусовий люк",
+
+  "block.pricksnplanks.cactus_plank_sign": "Кактусова табличка",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Кактусова настінна табличка",
+  "item.pricksnplanks.cactus_plank_sign_item": "Кактусова табличка",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Кактусова вивіска",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Кактусова настінна вивіска",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Кактусова вивіска",
+
+  "item.pricksnplanks.cactus_boat": "Кактусовий човен",
+  "item.pricksnplanks.cactus_chest_boat": "Кактусовий човен зі скринею",
+
+  "entity.pricksnplanks.cactus_boat": "Кактусовий човен",
+  "entity.pricksnplanks.cactus_chest_boat": "Кактусовий човен зі скринею",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Гончарний черепок «Кактус»",
+
+  "item.pricksnplanks.cactus_stew": "Тушкований кактус",
+
+  "item.pricksnplanks.thorns_music_disc": "Платівка",
+  "item.pricksnplanks.thorns_music_disc.desc": "Беґел Волчер — Thorns",
+
+  "effect.pricksnplanks.thorns": "Тернистість",
+
+  "block.pricksnplanks.cactus_tnt": "Кактусовий динаміт",
+  "entity.pricksnplanks.cactus_tnt": "Запалений кактусовий динаміт",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Орнамент обладунків «Колючки»",
+  "trim_pattern.pricksnplanks.spine": "Орнамент обладунків «Колючки»",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Майструється з кактусових дощок",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Інгредієнти тушкованого кактуса",
+  "tag.item.pricksnplanks.dry_grass": "Суха трава",
+  "tag.block.pricksnplanks.cactuses": "Кактуси",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Більше варіантів кактусів! Здеріть шкірку з ваших кактусів і робіть їжу та снаряди з колючок!"
+}
