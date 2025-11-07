@@ -76,7 +76,7 @@ public class ShearsSmoothingMixin {
              */
 
             if (playerEntity != null) {
-                itemStack.damage(1, playerEntity, LivingEntity.getSlotForHand(context.getHand()));
+                itemStack.damage(1, playerEntity, context.getHand());
             }
 
             cir.setReturnValue(ActionResult.SUCCESS);
