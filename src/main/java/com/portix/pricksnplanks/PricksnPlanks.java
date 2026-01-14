@@ -41,8 +41,9 @@ public class PricksnPlanks implements ModInitializer {
 	public void onInitialize() {
 		ModWoodTypes.registerModWoodTypes();
 
-		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+
 		ModItemGroups.registerItemGroups();
 
 		ModEntityTypes.registerModEntities();

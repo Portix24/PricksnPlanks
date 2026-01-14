@@ -22,13 +22,15 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block SMOOTH_CACTUS = registerBlock("smooth_cactus",
-            SmoothCactusBlock::new, AbstractBlock.Settings.create()
+            SmoothCactusBlock::new,
+            AbstractBlock.Settings.create()
                     .mapColor(MapColor.DARK_GREEN)
                     .strength(0.4F)
                     .sounds(BlockSoundGroup.WOOL)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-                    //.registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, "smooth_cactus")))
-                    );
+                    .pistonBehavior(PistonBehavior.DESTROY),
+                    //.registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, "smooth_cactus"))),
+            new Item.Settings()
+    );
 
     public static final Block SKINNED_CACTUS = registerBlock("skinned_cactus",
             SkinnedCactusBlock::new, AbstractBlock.Settings.create()
@@ -49,20 +51,21 @@ public class ModBlocks {
             );
 
     public static final Block CACTUS_PLANK_STAIRS = registerStairsBlock("cactus_plank_stairs", ModBlocks.CACTUS_PLANKS);
-    public static final Block CACTUS_PLANK_SLAB = registerBlock("cactus_plank_slab", SlabBlock::new, AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS));
+    public static final Block CACTUS_PLANK_SLAB = registerBlock("cactus_plank_slab", SlabBlock::new, AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS));
 
-    public static final Block CACTUS_PLANK_PRESSURE_PLATE = registerBlock("cactus_plank_pressure_plate", properties -> new PressurePlateBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS));
-    public static final Block CACTUS_PLANK_BUTTON = registerBlock("cactus_plank_button", properties -> new ButtonBlock(ModBlockSetTypes.CACTUS, 30, properties), AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS));
+    public static final Block CACTUS_PLANK_PRESSURE_PLATE = registerBlock("cactus_plank_pressure_plate", properties -> new PressurePlateBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS));
+    public static final Block CACTUS_PLANK_BUTTON = registerBlock("cactus_plank_button", properties -> new ButtonBlock(ModBlockSetTypes.CACTUS, 30, properties), AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS));
 
-    public static final Block CACTUS_PLANK_FENCE = registerBlock("cactus_plank_fence", FenceBlock::new, AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS));
-    public static final Block CACTUS_PLANK_FENCE_GATE = registerBlock("cactus_plank_fence_gate", properties -> new FenceGateBlock(WoodType.BAMBOO, properties), AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS));
+    public static final Block CACTUS_PLANK_FENCE = registerBlock("cactus_plank_fence", FenceBlock::new, AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS));
+    public static final Block CACTUS_PLANK_FENCE_GATE = registerBlock("cactus_plank_fence_gate", properties -> new FenceGateBlock(WoodType.BAMBOO, properties), AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS));
 
-    public static final Block CACTUS_PLANK_DOOR = registerBlock("cactus_plank_door", properties -> new DoorBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS).nonOpaque());
-    public static final Block CACTUS_PLANK_TRAPDOOR = registerBlock("cactus_plank_trapdoor", properties -> new TrapdoorBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS).nonOpaque());
+    public static final Block CACTUS_PLANK_DOOR = registerBlock("cactus_plank_door", properties -> new DoorBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS).nonOpaque());
+    public static final Block CACTUS_PLANK_TRAPDOOR = registerBlock("cactus_plank_trapdoor", properties -> new TrapdoorBlock(ModBlockSetTypes.CACTUS, properties), AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS).nonOpaque());
 
-    public static final Block CACTUS_PLANK_SIGN = registerBlockWithoutItem("cactus_plank_sign",
+    public static final Block CACTUS_PLANK_SIGN = registerBlockWithoutItem(
+            "cactus_plank_sign",
             properties -> new CactusSignBlock(ModWoodTypes.CACTUS, properties),
-            AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS).solid().noCollision().strength(1.0F));
+            AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS).solid().noCollision().strength(1.0F));
 
     public static final Block CACTUS_PLANK_WALL_SIGN = registerBlockWithoutItem(
             "cactus_plank_wall_sign",
@@ -72,7 +75,7 @@ public class ModBlocks {
 
     public static final Block CACTUS_PLANK_HANGING_SIGN = registerBlockWithoutItem("cactus_plank_hanging_sign",
             properties -> new CactusHangingSignBlock(ModWoodTypes.CACTUS, properties),
-            AbstractBlock.Settings.copyShallow(ModBlocks.CACTUS_PLANKS).solid().noCollision().strength(1.0F));
+            AbstractBlock.Settings.copy(ModBlocks.CACTUS_PLANKS).solid().noCollision().strength(1.0F));
 
     public static final Block CACTUS_PLANK_WALL_HANGING_SIGN = registerBlockWithoutItem(
             "cactus_plank_wall_hanging_sign",
@@ -87,7 +90,7 @@ public class ModBlocks {
     );
 
     private static AbstractBlock.Settings copyLootTable(Block block, boolean copyTranslationKey) {
-        AbstractBlock.Settings settings = block.getSettings();
+        AbstractBlock.Settings settings = AbstractBlock.Settings.copy(block);
         AbstractBlock.Settings settings2 = settings.lootTable(block.getLootTableKey());
         if (copyTranslationKey) {
             settings2 = settings2.overrideTranslationKey(block.getTranslationKey());
@@ -97,13 +100,17 @@ public class ModBlocks {
     }
 
     private static Block registerStairsBlock(String id, Block base) {
-        return registerBlock(id, settings -> new StairsBlock(base.getDefaultState(), settings), AbstractBlock.Settings.copyShallow(base));
+        return registerBlock(id, settings -> new StairsBlock(base.getDefaultState(), settings), AbstractBlock.Settings.copy(base));
+    }
+
+    private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function, AbstractBlock.Settings settings, Item.Settings itemSettings) {
+        Block toRegister = function.apply(settings.registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, name))));
+        registerBlockItem(name, toRegister, itemSettings);
+        return Registry.register(Registries.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, name), toRegister);
     }
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function, AbstractBlock.Settings settings) {
-        Block toRegister = function.apply(settings.registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, name))));
-        registerBlockItem(name, toRegister);
-        return Registry.register(Registries.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, name), toRegister);
+        return registerBlock(name, function, settings, new Item.Settings());
     }
 
     private static Block registerBlockWithoutItem(String name, Function<AbstractBlock.Settings, Block> function, AbstractBlock.Settings settings) {
@@ -111,12 +118,13 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK, Identifier.of(PricksnPlanks.MOD_ID, name), toRegister);
     }
 
-    private static Item registerBlockItem(String name, Block block) {
+    private static Item registerBlockItem(String name, Block block, Item.Settings settings) {
         //PricksnPlanks.LOGGER.info("Registering block item for {}", name);
         Item registeredItem = Registry.register(Registries.ITEM, Identifier.of(PricksnPlanks.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey()
+                new BlockItem(block, settings.useBlockPrefixedTranslationKey()
                         .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(PricksnPlanks.MOD_ID, name)))
                 ));
+        BlockItem.BLOCK_ITEMS.put(block, registeredItem);
         return registeredItem;
     }
 
