@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Kaktusowe przedmioty",
+
+  "item.pricksnplanks.throwable_cactus": "Kaktus do rzucania",
+  "entity.pricksnplanks.throwable_cactus": "Kaktus do rzucania",
+  "item.pricksnplanks.cactus_spikes": "Kaktusowe kolce",
+
+  "block.pricksnplanks.smooth_cactus": "Gładki kaktus",
+  "block.pricksnplanks.skinned_cactus": "Ociosany kaktus",
+
+  "block.pricksnplanks.cactus_planks": "Kaktusowe deski",
+  "block.pricksnplanks.cactus_plank_slab": "Kaktusowa płyta",
+  "block.pricksnplanks.cactus_plank_stairs": "Kaktusowe schody",
+  "block.pricksnplanks.cactus_plank_button": "Kaktusowy przycisk",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Kaktusowa płytka naciskowa",
+  "block.pricksnplanks.cactus_plank_fence": "Kaktusowy płot",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Kaktusowa furtka",
+  "block.pricksnplanks.cactus_plank_door": "Kaktusowe drzwi",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Kaktusowa klapa",
+
+  "block.pricksnplanks.cactus_plank_sign": "Kaktusowa tabliczka",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Kaktusowa tabliczka",
+  "item.pricksnplanks.cactus_plank_sign_item": "Kaktusowa tabliczka",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Kaktusowa podwieszana tabliczka",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Kaktusowa podwieszana tabliczka",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Kaktusowa podwieszana tabliczka",
+
+  "item.pricksnplanks.cactus_boat": "Kaktusowa łódka",
+  "item.pricksnplanks.cactus_chest_boat": "Kaktusowa łódka ze skrzynią",
+
+  "entity.pricksnplanks.cactus_boat": "Kaktusowa łódka",
+  "entity.pricksnplanks.cactus_chest_boat": "Kaktusowa łódka ze skrzynią",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Kaktusowy odłamek ceramiki",
+
+  "item.pricksnplanks.cactus_stew": "Zupa kaktusowa",
+
+  "item.pricksnplanks.thorns_music_disc": "Płyta muzyczna",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture – Thorns",
+
+  "effect.pricksnplanks.thorns": "Kolczasty",
+
+  "block.pricksnplanks.cactus_tnt": "Kaktusowe TNT",
+  "entity.pricksnplanks.cactus_tnt": "Kaktusowe TNT",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Zdobienie zbroi \"Kolec\"",
+  "trim_pattern.pricksnplanks.spine": "Zdobienie zbroi \"Kolec\"",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Przedmioty przetwarzalne na deski kaktusowe",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Składniki na zupę kaktusową",
+  "tag.item.pricksnplanks.dry_grass": "Sucha trawa",
+  "tag.block.pricksnplanks.cactuses": "Kaktusy",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Więcej odmian kaktusów! Strzyż lub obierz swój kaktus i wykorzystaj jego kolce do tworzenia jedzenia i pocisków!"
+}
