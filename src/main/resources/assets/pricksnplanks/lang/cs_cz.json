@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Karta kaktusových předmětů",
+
+  "item.pricksnplanks.throwable_cactus": "Vrhací kaktus",
+  "entity.pricksnplanks.throwable_cactus": "Vrhací kaktus",
+  "item.pricksnplanks.cactus_spikes": "Kaktusové trny",
+
+  "block.pricksnplanks.smooth_cactus": "Hladký kaktus",
+  "block.pricksnplanks.skinned_cactus": "Oloupaný kaktus",
+
+  "block.pricksnplanks.cactus_planks": "Kaktusová prkna",
+  "block.pricksnplanks.cactus_plank_slab": "Kaktusový půlblok",
+  "block.pricksnplanks.cactus_plank_stairs": "Kaktusové schody",
+  "block.pricksnplanks.cactus_plank_button": "Kaktusové tlačítko",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Kaktusová nášlapná deska",
+  "block.pricksnplanks.cactus_plank_fence": "Kaktusový plot",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Kaktusová branka",
+  "block.pricksnplanks.cactus_plank_door": "Kaktusové dveře",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Kaktusový poklop",
+
+  "block.pricksnplanks.cactus_plank_sign": "Kaktusová cedule",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Kaktusová cedule",
+  "item.pricksnplanks.cactus_plank_sign_item": "Kaktusová cedule",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Kaktusová závěsná cedule",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Kaktusová závěsná cedule",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Kaktusová závěsná cedule",
+
+  "item.pricksnplanks.cactus_boat": "Kaktusový člun",
+  "item.pricksnplanks.cactus_chest_boat": "Kaktusový člun s truhlou",
+
+  "entity.pricksnplanks.cactus_boat": "Kaktusový člun",
+  "entity.pricksnplanks.cactus_chest_boat": "Kaktusový člun s truhlou",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Střep s kaktusem",
+
+  "item.pricksnplanks.cactus_stew": "Kaktusová polévka",
+
+  "item.pricksnplanks.thorns_music_disc": "Gramofonová deska",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture – Thorns",
+
+  "effect.pricksnplanks.thorns": "Trnitý",
+
+  "block.pricksnplanks.cactus_tnt": "Kaktusové TNT",
+  "entity.pricksnplanks.cactus_tnt": "Kaktusové TNT",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Ornament Trnu",
+  "trim_pattern.pricksnplanks.spine": "Ornament Trnu",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Kaktusové prkenné předměty",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Ingredience do kaktusového guláše",
+  "tag.item.pricksnplanks.dry_grass": "Suchá tráva",
+  "tag.block.pricksnplanks.cactuses": "Kaktusy",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Více variant kaktusů! Ostřihejte nebo oloupejte svůj kaktus a použijte jeho trny k výrobě jídla a střel!"
+}

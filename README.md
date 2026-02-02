@@ -45,7 +45,8 @@ Feel free to open an issue on the [GitHub repository](https://github.com/Portix2
 
 This mod is provided as-is and will receive updates only irregularly, if required for compatibility or major bug fixes.  
 Active development is not guaranteed.  
-Feature requests can be submitted via Issues and will be reviewed at the developer’s discretion.
+Feature requests can be submitted via Issues and will be reviewed at the developer’s discretion.    
+Translations were made mostly by me and some people on GitHub, so if there are any mistakes, Pull requests are welcome on GitHub
 
 ---
 

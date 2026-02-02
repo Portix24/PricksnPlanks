@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Kaktus-Gegenstände",
+
+  "item.pricksnplanks.throwable_cactus": "Wurfkaktus",
+  "entity.pricksnplanks.throwable_cactus": "Wurfkaktus",
+  "item.pricksnplanks.cactus_spikes": "Kaktusstacheln",
+
+  "block.pricksnplanks.smooth_cactus": "Glatter Kaktus",
+  "block.pricksnplanks.skinned_cactus": "Geschälter Kaktus",
+
+  "block.pricksnplanks.cactus_planks": "Kaktusholzbretter",
+  "block.pricksnplanks.cactus_plank_slab": "Kaktusholzstufe",
+  "block.pricksnplanks.cactus_plank_stairs": "Kaktusholztreppe",
+  "block.pricksnplanks.cactus_plank_button": "Kaktusholzknopf",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Kaktusholzdruckplatte",
+  "block.pricksnplanks.cactus_plank_fence": "Kaktusholzzaun",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Kaktusholzzauntor",
+  "block.pricksnplanks.cactus_plank_door": "Kaktusholztür",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Kaktusholzfalltür",
+
+  "block.pricksnplanks.cactus_plank_sign": "Kaktusholzschild",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Kaktusholzschild",
+  "item.pricksnplanks.cactus_plank_sign_item": "Kaktusholzschild",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Kaktusholzhängesschild",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Kaktusholzhängesschild",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Kaktusholzhängesschild",
+
+  "item.pricksnplanks.cactus_boat": "Kaktusholzboot",
+  "item.pricksnplanks.cactus_chest_boat": "Kaktusholztruhenboot",
+
+  "entity.pricksnplanks.cactus_boat": "Kaktusholzboot",
+  "entity.pricksnplanks.cactus_chest_boat": "Kaktusholztruhenboot",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Kaktus-Töpferscherbe",
+
+  "item.pricksnplanks.cactus_stew": "Kaktussuppe",
+
+  "item.pricksnplanks.thorns_music_disc": "Schallplatte",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture – Thorns",
+
+  "effect.pricksnplanks.thorns": "Stachelig",
+
+  "block.pricksnplanks.cactus_tnt": "Kaktus-TNT",
+  "entity.pricksnplanks.cactus_tnt": "Kaktus-TNT",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Stachel Schmiedevorlage",
+  "trim_pattern.pricksnplanks.spine": "Stachel-Rüstungsbesatz",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Kaktusbrett-konvertierbar",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Zutaten für Kaktussupe",
+  "tag.item.pricksnplanks.dry_grass": "Trockenes Gras",
+  "tag.block.pricksnplanks.cactuses": "Kakteen",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Mehr Kaktusvarianten! Schere oder schäle deine Kakteen und verwende ihre Stacheln, um Nahrung und Projektile herzustellen!"
+}
