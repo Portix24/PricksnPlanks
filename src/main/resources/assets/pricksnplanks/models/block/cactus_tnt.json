@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "pricksnplanks:block/cactus_tnt_side",
+    "bottom": "pricksnplanks:block/cactus_tnt_bottom",
+    "top": "pricksnplanks:block/cactus_tnt_top",
+    "side": "pricksnplanks:block/cactus_tnt_side"
+  }
+}

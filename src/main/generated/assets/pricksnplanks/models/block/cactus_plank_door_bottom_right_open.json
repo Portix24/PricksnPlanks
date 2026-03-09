@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "pricksnplanks:block/cactus_plank_door_bottom",
+    "top": "pricksnplanks:block/cactus_plank_door_top"
+  }
+}

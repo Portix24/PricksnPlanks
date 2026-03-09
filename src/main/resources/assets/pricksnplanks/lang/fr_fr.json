@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Onglet des objets en cactus",
+
+  "item.pricksnplanks.throwable_cactus": "Cactus lançable",
+  "entity.pricksnplanks.throwable_cactus": "Cactus lançable",
+  "item.pricksnplanks.cactus_spikes": "Épines de cactus",
+
+  "block.pricksnplanks.smooth_cactus": "Cactus lisse",
+  "block.pricksnplanks.skinned_cactus": "Cactus épluché",
+
+  "block.pricksnplanks.cactus_planks": "Planches de cactus",
+  "block.pricksnplanks.cactus_plank_slab": "Dalle de cactus",
+  "block.pricksnplanks.cactus_plank_stairs": "Escaliers de cactus",
+  "block.pricksnplanks.cactus_plank_button": "Bouton de cactus",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Plaque de pression de cactus",
+  "block.pricksnplanks.cactus_plank_fence": "Barrière de cactus",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Portillon de cactus",
+  "block.pricksnplanks.cactus_plank_door": "Porte de cactus",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Trappe de cactus",
+
+  "block.pricksnplanks.cactus_plank_sign": "Pancarte de cactus",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Pancarte de cactus",
+  "item.pricksnplanks.cactus_plank_sign_item": "Pancarte de cactus",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Pancarte suspendue de cactus",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Pancarte suspendue de cactus",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Pancarte suspendue de cactus",
+
+  "item.pricksnplanks.cactus_boat": "Bateau en cactus",
+  "item.pricksnplanks.cactus_chest_boat": "Bateau de stockage en cactus",
+
+  "entity.pricksnplanks.cactus_boat": "Bateau en cactus",
+  "entity.pricksnplanks.cactus_chest_boat": "Bateau de stockage en cactus",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Tesson de poterie de cactus",
+
+  "item.pricksnplanks.cactus_stew": "Soupe de cactus",
+
+  "item.pricksnplanks.thorns_music_disc": "Disque",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture – Thorns",
+
+  "effect.pricksnplanks.thorns": "Épineux",
+
+  "block.pricksnplanks.cactus_tnt": "TNT de cactus",
+  "entity.pricksnplanks.cactus_tnt": "TNT de cactus",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Ornement d’épine",
+  "trim_pattern.pricksnplanks.spine": "Ornement d’épine",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Objets convertibles en planches de cactus",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Ingrédients du soupe de cactus",
+  "tag.item.pricksnplanks.dry_grass": "Herbe sèche",
+  "tag.block.pricksnplanks.cactuses": "Cactus",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Plus de variantes de cactus! Tondez ou épluchez vos cactus, et utilisez leurs épines pour fabriquer de la nourriture et des projectiles!"
+}

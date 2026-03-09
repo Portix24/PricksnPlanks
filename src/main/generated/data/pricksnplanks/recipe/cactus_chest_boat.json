@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "chest_boat",
+  "ingredients": [
+    "minecraft:chest",
+    "pricksnplanks:cactus_boat"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pricksnplanks:cactus_chest_boat"
+  }
+}

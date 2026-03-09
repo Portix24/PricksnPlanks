@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:cactus",
+    "G": "minecraft:gunpowder"
+  },
+  "pattern": [
+    "GCG",
+    "CGC",
+    "GCG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pricksnplanks:cactus_tnt"
+  }
+}

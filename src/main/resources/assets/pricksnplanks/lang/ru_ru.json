@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Pricks 'n' Planks",
+
+  "item.pricksnplanks.throwable_cactus": "Метательный кактус",
+  "entity.pricksnplanks.throwable_cactus": "Метательный кактус",
+  "item.pricksnplanks.cactus_spikes": "Шипы кактуса",
+
+  "block.pricksnplanks.smooth_cactus": "Гладкий кактус",
+  "block.pricksnplanks.skinned_cactus": "Очищенный кактус",
+
+  "block.pricksnplanks.cactus_planks": "Кактусовые доски",
+  "block.pricksnplanks.cactus_plank_slab": "Кактусовая плита",
+  "block.pricksnplanks.cactus_plank_stairs": "Кактусовые ступеньки",
+  "block.pricksnplanks.cactus_plank_button": "Кактусовая кнопка",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Кактусовая нажимная плита",
+  "block.pricksnplanks.cactus_plank_fence": "Кактусовый забор",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Кактусовая калитка",
+  "block.pricksnplanks.cactus_plank_door": "Кактусовая дверь",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Кактусовый люк",
+
+  "block.pricksnplanks.cactus_plank_sign": "Кактусовая табличка",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Кактусовая табличка",
+  "item.pricksnplanks.cactus_plank_sign_item": "Кактусовая табличка",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Кактусовая подвесная табличка",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Кактусовая подвесная табличка",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Кактусовая подвесная табличка",
+
+  "item.pricksnplanks.cactus_boat": "Кактусовая лодка",
+  "item.pricksnplanks.cactus_chest_boat": "Кактусовая грузовая лодка",
+
+  "entity.pricksnplanks.cactus_boat": "Кактусовая лодка",
+  "entity.pricksnplanks.cactus_chest_boat": "Кактусовая грузовая лодка",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Глиняный черепок «Кактус»",
+
+  "item.pricksnplanks.cactus_stew": "Кактусовый суп",
+
+  "item.pricksnplanks.thorns_music_disc": "Пластинка",
+  "item.pricksnplanks.thorns_music_disc.desc": "Бэйгл Волчер — Thorns",
+
+  "effect.pricksnplanks.thorns": "Шипастость",
+
+  "block.pricksnplanks.cactus_tnt": "Кактусовый динамит",
+  "entity.pricksnplanks.cactus_tnt": "Кактусовый динамит",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Отделка «Позвоночник»",
+  "trim_pattern.pricksnplanks.spine": "Отделка «Позвоночник»",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Используется для кактусовых досок",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Ингредиенты для кактусового супа",
+  "tag.item.pricksnplanks.dry_grass": "Сухая трава",
+  "tag.block.pricksnplanks.cactuses": "Кактусы",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Больше видов кактусов! Остригите или очистите свой кактус, используйте его шипы для создания еды и снарядов!"
+}

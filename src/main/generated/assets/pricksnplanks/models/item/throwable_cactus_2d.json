@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "pricksnplanks:item/throwable_cactus_2d"
+  }
+}

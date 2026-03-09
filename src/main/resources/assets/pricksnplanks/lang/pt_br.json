@@ -1,0 +1,56 @@
+{
+  "itemgroup.pricksnplanks.cactus_items": "Aba de itens de Cacto",
+
+  "item.pricksnplanks.throwable_cactus": "Cacto arremessável",
+  "entity.pricksnplanks.throwable_cactus": "Cacto arremessável",
+  "item.pricksnplanks.cactus_spikes": "Espinhos de Cacto",
+
+  "block.pricksnplanks.smooth_cactus": "Cacto liso",
+  "block.pricksnplanks.skinned_cactus": "Cacto descascado",
+
+  "block.pricksnplanks.cactus_planks": "Tábuas de Cacto",
+  "block.pricksnplanks.cactus_plank_slab": "Laje de Cacto",
+  "block.pricksnplanks.cactus_plank_stairs": "Escadas de Cacto",
+  "block.pricksnplanks.cactus_plank_button": "Botão de Cacto",
+  "block.pricksnplanks.cactus_plank_pressure_plate": "Placa de pressão de Cacto",
+  "block.pricksnplanks.cactus_plank_fence": "Cerca de Cacto",
+  "block.pricksnplanks.cactus_plank_fence_gate": "Portão de cerca de Cacto",
+  "block.pricksnplanks.cactus_plank_door": "Porta de Cacto",
+  "block.pricksnplanks.cactus_plank_trapdoor": "Alçapão de Cacto",
+
+  "block.pricksnplanks.cactus_plank_sign": "Placa de Cacto",
+  "block.pricksnplanks.cactus_plank_wall_sign": "Placa de Cacto",
+  "item.pricksnplanks.cactus_plank_sign_item": "Placa de Cacto",
+
+  "block.pricksnplanks.cactus_plank_hanging_sign": "Placa suspensa de Cacto",
+  "block.pricksnplanks.cactus_plank_wall_hanging_sign": "Placa suspensa de Cacto",
+  "item.pricksnplanks.cactus_plank_hanging_sign_item": "Placa suspensa de Cacto",
+
+  "item.pricksnplanks.cactus_boat": "Bote de Cacto",
+  "item.pricksnplanks.cactus_chest_boat": "Bote de Cacto com Baú",
+
+  "entity.pricksnplanks.cactus_boat": "Bote de Cacto",
+  "entity.pricksnplanks.cactus_chest_boat": "Bote de Cacto com Baú",
+
+  "item.pricksnplanks.cactus_pottery_sherd": "Óstraco de Cacto",
+
+  "item.pricksnplanks.cactus_stew": "Ensopado de Cacto",
+
+  "item.pricksnplanks.thorns_music_disc": "Disco Musical",
+  "item.pricksnplanks.thorns_music_disc.desc": "Bagel Vulture – Thorns",
+
+  "effect.pricksnplanks.thorns": "Espinhoso",
+
+  "block.pricksnplanks.cactus_tnt": "TNT de Cacto",
+  "entity.pricksnplanks.cactus_tnt": "TNT de Cacto",
+
+  "item.pricksnplanks.spine_armor_trim_smithing_template": "Enfeite de Cacto",
+  "trim_pattern.pricksnplanks.spine": "Enfeite de Cacto",
+
+  "tag.item.pricksnplanks.cactus_plank_craftables": "Convertíveis em tábuas de Cacto",
+  "tag.item.pricksnplanks.cactus_stew_ingredients": "Ingredientes do ensopado de Cacto",
+  "tag.item.pricksnplanks.dry_grass": "Grama seca",
+  "tag.block.pricksnplanks.cactuses": "Cactos",
+
+  "modmenu.descriptionTranslation.pricksnplanks": "Mais variantes de cactos! Tosque ou descasque seus cactos, e use seus espinhos para criar comida e projéteis!"
+}
